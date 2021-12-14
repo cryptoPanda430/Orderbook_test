@@ -8,6 +8,7 @@ type SharedWorkerProviderProps = {
 };
 
 function SharedWorkerProvider({ children }: SharedWorkerProviderProps) {
+    
     const sharedWorker = new SharedWorker(
         (new URL(
             './webSocket.shared-worker.ts',

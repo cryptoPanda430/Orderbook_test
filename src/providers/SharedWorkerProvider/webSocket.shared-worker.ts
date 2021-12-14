@@ -18,6 +18,7 @@ function connectComponent(
     connectionID: string,
     proxiedSetOrderBook: React.Dispatch<React.SetStateAction<OrderBook>>,
 ) {
+    
     const websocketOrderBookConnection = websocketOrderBookConnections[product];
 
     websocketOrderBookConnection.addCallback(connectionID, proxiedSetOrderBook);
