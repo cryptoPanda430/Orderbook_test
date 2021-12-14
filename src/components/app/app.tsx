@@ -18,14 +18,9 @@ export const App = (): React.ReactElement => (
         <Suspense fallback={'loading...'}>
             <LazyStrawberryIcon className={stylesImage} />
         </Suspense>
-        <div>
-            <a
-                className={cn(stylesLink)}
-                href="https://github.com/glook/webpack-typescript-react"
-                target="_blank"
-            >
-                @glook/webpack-typescript-react
-            </a>
-        </div>
+        <SharedWorkerProvider>
+                <OrderBook />
+        
+        </SharedWorkerProvider>
     </div>
 );

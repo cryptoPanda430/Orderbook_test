@@ -1,7 +1,7 @@
 /**
  * Created by: Andrey Polyakov (andrey@polyakov.im)
  */
-import '@styles/styles.less';
+// import '@styles/styles.less';
 import '@styles/styles.scss';
 
 import React from 'react';

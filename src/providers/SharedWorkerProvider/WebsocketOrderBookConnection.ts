@@ -70,7 +70,7 @@ export class WebsocketOrderBookConnection {
         console.debug('Attempting connection');
 
         this.worker = new Worker(
-            new URL('../webWorker/transformData.worker.ts', import.meta.url),
+            new URL('../../webWorker/transformData.worker.ts', import.meta.url),
         );
         this.comlinkWorker = (Comlink.wrap<Worker>(
             this.worker,
