@@ -34,7 +34,7 @@
         "@types/react": "^17.0.37",
         "@types/react-dom": "^17.0.11",
         "@types/resize-observer-browser": "^0.1.6",
-        "@types/sharedworker": "^0.0.61",
+        "@types/sharedworker": "^0.0.29",
         "@types/websocket": "^1.0.4",
         "classnames": "^2.3.1",
         "comlink": "^4.3.1",
